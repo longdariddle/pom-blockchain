@@ -5,16 +5,16 @@ Welcome to POM-Blockchain prototype, a decentralized problem-solving platform bu
 # Features
 **Users**: Submit one problem per round; accept or reject proposed solutions.
 
-Solvers: Submit solutions with welfare scores for all current problems; finalize blocks to earn rewards.
+**Solvers**: Submit solutions with welfare scores for all current problems; finalize blocks to earn rewards.
 
-Blockchain: Tracks problems, solutions, user responses, and solver scores with an acceptance rate per block.
+**Blockchain**: Tracks problems, solutions, user responses, and solver scores with an acceptance rate per block.
 
-Scoring: Cumulative Winner-Selection-Score with an adjustment factor ((1-DCP)*acceptance rate) for winners.
+**Scoring**: Cumulative Winner-Selection-Score with an adjustment factor ((1-DCP)*acceptance rate) for winners.
 
-Winning Rate: Displays each solver’s success rate based on finalized blocks.
+**Winning Rate**: Displays each solver’s success rate based on finalized blocks.
 
 # Prerequisites
-Node.js: Version 14.x or higher (download from https://nodejs.org/en).
+**Node.js**: Version 14.x or higher (download from https://nodejs.org/en).
 
 A modern web browser (e.g., Chrome, Firefox).
 
@@ -37,3 +37,9 @@ pom-blockchain/\
 ├── server.js         # Main server file\
 ├── package.json      # Project dependencies and scripts\
 └── README.md         # This file\
+
+# How to Run
+In Windows command prompt, type the followin:\
+git clone https://github.com/longdarider/pom-blockchain.git  
+cd pom-blockchain\
+npm start
