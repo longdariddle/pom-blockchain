@@ -54,8 +54,8 @@ npm start
 1, register User1, submit a problem "Match me to a driver".\
 2, register User1, submit a problem "Match a driver to me".\
 3, register Solver1, submit scores "5", "6" to User1 and User2. Multiple submissions are allowed.\
-4, register Solver2, submit scores "6", "7" to User1 and User2.\
+4, register Solver2, submit scores "6", "7" to User1 and User2. Solver2 has the highest winner-selection-score, therefore, Solver2's solution is send to all users.\
 5, User1 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
 6, User2 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
-7, Solver2 logs in, click "Finalize Block".\
+7, Solver2 logs in, click "Finalize Block". Observe that the adjustment score is changed for Solver2.\
 8, In user or solver dashboard, check the information of the created block by clicking "View Blockchain History"
