@@ -49,3 +49,13 @@ npm install express ejs bcryptjs express-session\
 npm start
 
 4, Open your browser to http://localhost:3000
+
+# Example Workflow
+1, register User1, submit a problem "Match me to a driver"\
+2, register User1, submit a problem "Match me to a driver"\
+3, register Solver1, submit scores "5", "6" to User1 and User2. Multiple submissions are allowed.\
+4, register Solver2, submit scores "6", "7" to User1 and User2.\
+5, User1 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
+6, User2 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
+7, Solver2 logs in, click "Finalize Block".\
+8, In user or solver dashboard, check the information of the created block by clicking "View Blockchain History"
