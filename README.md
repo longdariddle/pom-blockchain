@@ -4,14 +4,20 @@ Welcome to POM-Blockchain prototype, a decentralized problem-solving platform bu
 
 # Features
 Users: Submit one problem per round; accept or reject proposed solutions.
+
 Solvers: Submit solutions with welfare scores for all current problems; finalize blocks to earn rewards.
+
 Blockchain: Tracks problems, solutions, user responses, and solver scores with an acceptance rate per block.
+
 Scoring: Cumulative winnerSelectionScore with an adjustment factor (DCP = 0.6) for winners.
+
 Winning Rate: Displays each solver’s success rate based on finalized blocks.
 
 # Prerequisites
 Node.js: Version 14.x or higher (https://nodejs.org/en).
+
 npm: Comes with Node.js.
+
 A modern web browser (e.g., Chrome, Firefox).
 
 # Project Structure
