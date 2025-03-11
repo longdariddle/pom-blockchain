@@ -22,20 +22,37 @@ A modern web browser (e.g., Chrome, Firefox).
 
 # Project Structure
 pom-blockchain/
+
 ├── models/
+
 │   ├── Blockchain.js  # Blockchain logic and classes
+
 │   ├── User.js       # User model (simple in-memory storage)
+
 │   ├── Solver.js     # Solver model (simple in-memory storage)
+
 ├── routes/
+
 │   ├── index.js      # Express routes for all endpoints
+
 ├── views/
+
 │   ├── index.ejs     # Homepage with login/register links
+
 │   ├── login.ejs     # Login page
+
 │   ├── register.ejs  # Registration page
+
 │   ├── userDashboard.ejs  # User interface
+
 │   ├── solverDashboard.ejs  # Solver interface
+
 │   ├── solutionResponse.ejs  # Response page for users
+
 │   ├── blockchainHistory.ejs  # Blockchain history view
+
 ├── server.js         # Main server file
+
 ├── package.json      # Project dependencies and scripts
+
 └── README.md         # This file
