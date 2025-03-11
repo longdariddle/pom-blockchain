@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, <%= user.username %></h1>
+    <p>Current Blockchain Length: <%= blockchain.chain.length > 0 ? blockchain.chain[blockchain.chain.length - 1].index : 0 %></p>
+    <h2>Submit a Problem</h2>
+    <form method="POST" action="/submitProblem">
+        <label>Description: <input type="text" name="description" required></label><br>
+        <button type="submit">Submit Problem</button>
+    </form>
+    <h2>Your Problems</h2>
+    <ul>
+        <% problems.filter(p => p.user === user.username).forEach(problem => { %>
+            <li><%= problem.id %> - <%= problem.description %></li>
+        <% }) %>
+    </ul>
+    <% if (solution) { %>
+        <h2><%= blockchain.winningSolution ? "Proposed Winning Solution" : "Current Best Solution" %></h2>
+        <p>Solver: <%= solution.solver %></p>
+        <% solution.problemDetails.forEach(detail => { %>
+            <% if (detail.user === user.username) { %>
+                <p>Problem: <%= detail.description %></p>
+                <p>Your Welfare Score if Accepted: <%= solution.welfareScores[detail.id] %></p>
+                <% if (blockchain.userResponses.length < solution.problemIds.length) { %>
+                    <a href="/solutionResponse">Respond</a>
+                <% } else { %>
+                    <p>All responses collected</p>
+                <% } %>
+            <% } %>
+        <% }) %>
+    <% } %>
+    <a href="/blockchainHistory" target="_blank">View Blockchain History</a><br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
