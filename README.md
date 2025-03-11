@@ -58,4 +58,4 @@ npm start
 5, User1 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
 6, User2 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
 7, Solver2 logs in, click "Finalize Block". Observe that the adjustment score is changed for Solver2.\
-8, In user or solver dashboard, check the information of the created block by clicking "View Blockchain History"
+8, In user or solver dashboard, check the information of the created block by clicking "View Blockchain History".
