@@ -1,6 +1,6 @@
 # pom-blockchain
 
-Welcome to POM-Blockchain prototype, a decentralized problem-solving platform built with Node.js, Express, and a custom blockchain implementation. Users can submit problems, solvers propose solutions with welfare scores, and the blockchain records winning solutions with rewards. This project demonstrates a unique mechanism for incentivizing problem-solving through a winner-selection-score system.
+Welcome to POM-Blockchain prototype, a decentralized problem-solving platform built with Node.js and a custom blockchain implementation. Users can submit problems, solvers propose solutions with welfare scores, and the blockchain records winning solutions with rewards. This project demonstrates a unique mechanism for incentivizing problem-solving through a winner-selection-score system.
 
 # Features
 **Users**: Submit one problem per round; accept or reject proposed solutions.
