@@ -51,8 +51,8 @@ npm start
 4, Open your browser to http://localhost:3000
 
 # Example Workflow
-1, register User1, submit a problem "Match me to a driver"\
-2, register User1, submit a problem "Match me to a driver"\
+1, register User1, submit a problem "Match me to a driver".\
+2, register User1, submit a problem "Match a driver to me".\
 3, register Solver1, submit scores "5", "6" to User1 and User2. Multiple submissions are allowed.\
 4, register Solver2, submit scores "6", "7" to User1 and User2.\
 5, User1 logs in, sees Solver2’s solution, clicks "Respond," selects "Accept."\
