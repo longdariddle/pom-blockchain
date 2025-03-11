@@ -45,6 +45,7 @@ pom-blockchain/\
 cd path (e.g., cd C:\Users\Username\Desktop\pom-blockchain)
 
 3, In Windows command prompt, type:\
+npm install express ejs bcryptjs express-session\
 npm start
 
 4, Open your browser to http://localhost:3000
