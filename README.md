@@ -39,8 +39,9 @@ pom-blockchain/\
 └── README.md         # This file\
 
 # How to Run
-In Windows command prompt, type the followin:\
+1, In Windows command prompt, type the following:\
 git clone https://github.com/longdarider/pom-blockchain.git  
 cd pom-blockchain\
-npm start\
-Open your browser to http://localhost:3000
+npm start
+
+2, Open your browser to http://localhost:3000
